@@ -42,6 +42,17 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+line-border {
+  border: 1px solid black; /* Change border color and thickness as needed */
+  padding: 10px; /* Add padding around image to create space between border and image */
+}
+
+line-border img {
+  display: block; /* Make image a block element to fill its container */
+  width: 100%; /* Set image width to fill container */
+  height: auto; /* Allow image height to adjust proportionally */
+  background-color: transparent; /* Set image background to transparent */
+}
 
 h1 {
   font-weight: 400;
